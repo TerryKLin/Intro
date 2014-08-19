@@ -1,0 +1,209 @@
+#content {
+  *zoom: 1;
+  width: auto;
+  max-width: 720px, 0;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border: 1px #000;
+/*
+	-webkit-border-radius: 5px black
+  -moz-border-radius: 5px black
+  border-radius: 5px black*/
+}
+#content:before,
+#content:after {
+  content: '';
+  display: table;
+}
+#content:after {
+  clear: both;
+}
+#avatar {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 50%;
+  border: 1px #000;
+}
+#avatar:before,
+#avatar:after {
+  content: '';
+  display: table;
+}
+#avatar:after {
+  clear: both;
+}
+#avatar:last-child {
+  margin-right: 0%;
+}
+#intro {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 75%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#intro:before,
+#intro:after {
+  content: '';
+  display: table;
+}
+#intro:after {
+  clear: both;
+}
+#intro:last-child {
+  margin-right: 0%;
+}
+#exp {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 75%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#exp:before,
+#exp:after {
+  content: '';
+  display: table;
+}
+#exp:after {
+  clear: both;
+}
+#exp:last-child {
+  margin-right: 0%;
+}
+#course_taken {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#course_taken:before,
+#course_taken:after {
+  content: '';
+  display: table;
+}
+#course_taken:after {
+  clear: both;
+}
+#course_taken:last-child {
+  margin-right: 0%;
+}
+#skills {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 33.3333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#skills:before,
+#skills:after {
+  content: '';
+  display: table;
+}
+#skills:after {
+  clear: both;
+}
+#skills:last-child {
+  margin-right: 0%;
+}
+#technoglies {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 33.3333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#technoglies:before,
+#technoglies:after {
+  content: '';
+  display: table;
+}
+#technoglies:after {
+  clear: both;
+}
+#technoglies:last-child {
+  margin-right: 0%;
+}
+#design {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 33.3333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#design:before,
+#design:after {
+  content: '';
+  display: table;
+}
+#design:after {
+  clear: both;
+}
+#design:last-child {
+  margin-right: 0%;
+}
+#hobby {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px #000;
+}
+#hobby:before,
+#hobby:after {
+  content: '';
+  display: table;
+}
+#hobby:after {
+  clear: both;
+}
+#hobby:last-child {
+  margin-right: 0%;
+}
