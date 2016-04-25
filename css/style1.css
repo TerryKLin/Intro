@@ -317,11 +317,3 @@ body div p {
     height: 20em;
   }
 }
-.flickr {
-  background: url("../img/flickr.svg") no-repeat;
-  margin-right: 5px;
-}
-.github {
-  background: url("../img/github.svg") no-repeat;
-  padding-left: 5px;
-}
