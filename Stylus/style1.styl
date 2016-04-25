@@ -19,10 +19,13 @@ body
 		height  150px
 		border-radius 25px*/
 #wrap
-	display block
-	background url('../img/background.svg')
-	width auto
-	height auto
+	background url('../img/background.svg') no-repeat 
+	background-size cover 
+	font-size 1.1rem
+    line-height 2.56rem
+    div p
+    	margin 1em 1em 0em 1em
+
 	
 #info
 	center()
@@ -38,11 +41,12 @@ body
 	+above(65em)
 		col(2/5)
 		shift(1/10)
-		background #5CA4A9
-		-moz-box-shadow 0 0 5px 5px #888
-		-webkit-box-shadow: 0 0 5px 5px#888
+		background rgba(92, 164, 169, 0.5)
+		//-moz-box-shadow 0 0 5px 5px #888
+		//-webkit-box-shadow: 0 0 5px 5px#888
 		border 2px dashed  #ffffff
-		box-shadow: 0 0 5px 5px #888
+		//box-shadow: 0 0 5px 5px #888
+		//background: rgba(255,255,255,.8)
 #exp
 	text-align center
 	background #F4F1BB
@@ -50,10 +54,11 @@ body
 	+above(65em)
 		col(2/5)
 		shift(1/10)
-		background #F4F1BB
-		-moz-box-shadow 0 0 5px 5px #888
-		-webkit-box-shadow 0 0 5px 5px#888
-		box-shadow: 0 0 5px 5px #888	
+		background rgba(244, 241, 187, 0.5)
+		//-moz-box-shadow 0 0 5px 5px #888
+		//-webkit-box-shadow 0 0 5px 5px#888
+		//box-shadow: 0 0 5px 5px #888	
+
 #showcase
 	center()
 	text-align center
@@ -68,10 +73,10 @@ body
 		margin-top 2em
 		col(2/5)
 		shift(1/10)
-		background #F4F1BB
-		-moz-box-shadow 0 0 5px 5px #888
-		-webkit-box-shadow 0 0 5px 5px#888
-		box-shadow 0 0 5px 5px #888
+		background rgba(244, 241, 187, 0.7)
+		//-moz-box-shadow 0 0 5px 5px #888
+		//-webkit-box-shadow 0 0 5px 5px#888
+		//box-shadow 0 0 5px 5px #888
 			
 #portfolio
 	//margin-top 2em
@@ -82,11 +87,11 @@ body
 		margin-top 2em
 		col(2/5)
 		shift(1/10)
-		background #5CA4A9
-		-moz-box-shadow 0 0 5px 5px #888
-		-webkit-box-shadow 0 0 5px 5px#888
+		background rgba(92, 164, 169, 0.5)
+		//-moz-box-shadow 0 0 5px 5px #888
+		//-webkit-box-shadow 0 0 5px 5px#888
 		border 2px dashed  #ffffff
-		box-shadow 0 0 5px 5px #888
+		//box-shadow 0 0 5px 5px #888
 
 #design
 	height 28em
@@ -95,3 +100,12 @@ body
 	stack()
 	+above(65em)
 		height 20em
+		
+.flickr
+	background url('../img/flickr.svg') no-repeat
+	margin-right 5px
+
+.github
+	background url('../img/github.svg') no-repeat
+	padding-left 5px
+	

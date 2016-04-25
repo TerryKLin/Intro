@@ -38,10 +38,14 @@ body div p {
   margin-right: auto;
 }
 #wrap {
-  display: block;
-  background: url("../img/background.svg");
-  width: auto;
-  height: auto;
+  background: url("../img/background.svg") no-repeat;
+  background-size: cover;
+}
+#wrap font-size 1.1rem {
+  line-height: 2.56rem;
+}
+#wrap font-size 1.1rem div p {
+  margin: 1em 1em 0em 1em;
 }
 #info {
   *zoom: 1;
@@ -102,11 +106,8 @@ body div p {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: #5ca4a9;
-    -moz-box-shadow: 0 0 5px 5px #888;
-    -webkit-box-shadow: 0 0 5px 5px #888;
+    background: rgba(92,164,169,0.5);
     border: 2px dashed #fff;
-    box-shadow: 0 0 5px 5px #888;
   }
   #intro:before,
   #intro:after {
@@ -147,8 +148,7 @@ body div p {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: #f4f1bb;
-    box-shadow: 0 0 5px 5px #888;
+    background: rgba(244,241,187,0.5);
   }
   #exp:before,
   #exp:after {
@@ -222,8 +222,7 @@ body div p {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: #f4f1bb;
-    box-shadow: 0 0 5px 5px #888;
+    background: rgba(244,241,187,0.7);
   }
   #skills:before,
   #skills:after {
@@ -265,11 +264,8 @@ body div p {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: #5ca4a9;
-    -moz-box-shadow: 0 0 5px 5px #888;
-    -webkit-box-shadow: 0 0 5px 5px #888;
+    background: rgba(92,164,169,0.5);
     border: 2px dashed #fff;
-    box-shadow: 0 0 5px 5px #888;
   }
   #portfolio:before,
   #portfolio:after {
@@ -320,4 +316,12 @@ body div p {
   #design {
     height: 20em;
   }
+}
+.flickr {
+  background: url("../img/flickr.svg") no-repeat;
+  margin-right: 5px;
+}
+.github {
+  background: url("../img/github.svg") no-repeat;
+  padding-left: 5px;
 }
