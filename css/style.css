@@ -27,7 +27,7 @@ html * {
 }
 
 a {
-  color: #acb7c0;
+  color: black;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
@@ -35,12 +35,12 @@ a {
 img 
   max-width: 100%;
 }
-
-/*h1, h2 {
+/*
+h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-}*/
-
+}
+*/
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -88,9 +88,9 @@ header h1 {
 
 #cd-timeline {
   position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  padding: 0.5em 0;
+  /*margin-top: 0.5em;
+  margin-bottom: 0.5em;*/
 }
 #cd-timeline::before {
   /* this is the vertical line */
@@ -103,10 +103,10 @@ header h1 {
   background: #d7e4ed;
 }
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
+ /* #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
-  }
+  }*/
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
