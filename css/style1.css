@@ -1,6 +1,7 @@
 body {
   font-size: 1.1rem;
   line-height: 2.56rem;
+  max-width: 90em;
 }
 body div p {
   margin: 1em 1em 0em 1em;
@@ -10,16 +11,10 @@ header h3 {
   font-size: 1.5rem;
   color: #694f5d;
 }
+#info {
+  background: #e6ebe0;
+}
 #photo {
-  *zoom: 1;
-  width: auto;
-  max-width: 1440px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
   text-align: center;
   display: block;
   clear: both;
@@ -28,19 +23,85 @@ header h3 {
   margin-left: auto;
   margin-right: auto;
 }
-#photo:before,
-#photo:after {
-  content: '';
-  display: table;
-}
-#photo:after {
-  clear: both;
-}
 #photo:first-child {
   margin-left: auto;
 }
 #photo:last-child {
   margin-right: auto;
+}
+@media only screen and (min-width: 65em) {
+  #photo {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 38.2%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: relative;
+    left: 24.72%;
+  }
+  #photo:before,
+  #photo:after {
+    content: '';
+    display: table;
+  }
+  #photo:after {
+    clear: both;
+  }
+  #photo:last-child {
+    margin-right: 0%;
+  }
+}
+img {
+  border-radius: 50%;
+  text-align: center;
+}
+@media only screen and (min-width: 65em) {
+  img {
+    margin-top: 1em;
+    border-radius: 50%;
+  }
+}
+#links {
+  text-align: center;
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#links:first-child {
+  margin-left: auto;
+}
+#links:last-child {
+  margin-right: auto;
+}
+@media only screen and (min-width: 65em) {
+  #links {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 38.2%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: relative;
+    left: 10.3%;
+    text-align: center;
+  }
+  #links:before,
+  #links:after {
+    content: '';
+    display: table;
+  }
+  #links:after {
+    clear: both;
+  }
+  #links:last-child {
+    margin-right: 0%;
+  }
 }
 #wrap {
   background: url("../img/background.svg") no-repeat;
@@ -52,7 +113,7 @@ header h3 {
 #wrap font-size 1.1rem div p {
   margin: 1em 1em 0em 1em;
 }
-#info {
+#summary {
   *zoom: 1;
   width: auto;
   max-width: 1440px;
@@ -70,18 +131,18 @@ header h3 {
   margin-left: auto;
   margin-right: auto;
 }
-#info:before,
-#info:after {
+#summary:before,
+#summary:after {
   content: '';
   display: table;
 }
-#info:after {
+#summary:after {
   clear: both;
 }
-#info:first-child {
+#summary:first-child {
   margin-left: auto;
 }
-#info:last-child {
+#summary:last-child {
   margin-right: auto;
 }
 #intro {
@@ -286,7 +347,7 @@ header h3 {
 }
 #design {
   background: #e6ebe0;
-  height: 13em;
+  height: 16em;
   *zoom: 1;
   width: auto;
   max-width: 1440px;
@@ -321,6 +382,6 @@ header h3 {
 @media only screen and (min-width: 65em) {
   #design {
     background: #ed6a5a;
-    height: 10em;
+    height: 12em;
   }
 }

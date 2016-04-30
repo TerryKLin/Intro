@@ -14,15 +14,22 @@
 	<body>
 	
 	<div id = "Content">
-		<div id = "photo">
-			<h3>Terry Lin</h3>	
-			<p>Email: kuantinlin@gmail.com</p>
-			<!--<img src="img/terry.jpg" alt="Photo">  https://coolors.co/app/ed6a5a-f4f1bb-9bc1bc-5ca4a9-e6ebe0-->
+		<div id = "info">
+			<div id = "photo">
+				<img src="img/terry.jpg" alt="Photo"> <!--< https://coolors.co/app/ed6a5a-f4f1bb-9bc1bc-5ca4a9-e6ebe0-->
+			</div>
+			
+			<div id = "links">
+				<h3>Terry Lin</h3>	
+				<li class = "fa fa-envelope" style="font-size:16px;"><a href="emailto:kuantinlin@gmail.com"> My Email</a></li><br>
+				<li class = "fa fa-linkedin" style="font-size:16px;"><a href="https://ca.linkedin.com/in/terryktlin"> Linkedin</a></li><br>
+				<li class = "fa fa-github" style="font-size:16px;"><a href="https://github.com/TerryKLin"> Github</a></li><br>
+				<li class = "fa fa-flickr" style="font-size:16px;">  <a href="https://www.flickr.com/photos/terryklin/">Flickr</a></li>
 		</div>
 
 		<div id = "wrap">
 			<a href = "/" class = "background"></a>
-			<div id = "info">
+			<div id = "summary">
 				<div id = "intro">
 					<h3>Intro</h3>
 					<p>Been described as efficient and punctual, I am passionated about front end development and UI/UX Design. Aside from Bootstrap and Semantic UI, I also play around the newest web dev tool as soon as I have time. Currently, I am learning Angular.js and AWS (Amazone Web Services)</br>
@@ -65,6 +72,7 @@
 		</div>
 		
 		<div id = "Timeline">
+			<h2>My Timeline</h2>
 			<section id="cd-timeline" class="cd-container">
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-picture">
@@ -72,7 +80,7 @@
 				</div> <!-- cd-timeline-img -->
 
 				<div class="cd-timeline-content">
-					<h2>Angular & AWS</h2>
+					<h1>Angular & AWS</h1>
 					<p>Catching up the front end development framework and Amazon's deployment solution.</p>
 					<li class = "fa fa-github" style="font-size:16px;"><a href="https://github.com/TerryKLin/AngularPractice"> Angular.js (From simple vliadation to a fully functional single page application)</a></li>
 					<span class="cd-date">April 2016</span>
@@ -87,7 +95,7 @@
 				<div class="cd-timeline-content">
 					<h2>Off to Scandinavia</h2>
 					<p>Spent a couple weeks in Northern Europe to catch the winter's tail and experiece the Nordic Culture.</p>
-					<li class = "fa fa-flickr" style="font-size:16px;"><a href="https://www.flickr.com/photos/terryklin/"> Photos from the trip (Flickr)</a></li>
+					<li class = "fa fa-flickr" style="font-size:16px;"><a href="https://www.flickr.com/photos/terryklin/"> Photos from the trip (Flickr)</a></li><br>
 					<span class="cd-date">Feb 2016</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -114,7 +122,7 @@
 					<h2>Bachelor of Informatics - Done</h2>
 					<p>Project : Revamed Biodiversity's WordPress site by customzing the new acquired theme and enhancing their SEO</p>
 					<p> Handed off all the project credentials and documentations on the 8th to our client </p> 
-					<li class = "fa fa-link" style="font-size:16px;"><a href="http://farmbiodiversity.ca">  Farm Biodiveristy's Website</a></li>
+					<li class = "fa fa-link" style="font-size:16px;"><a href="http://farmbiodiversity.ca">  Farm Biodiveristy's Website</a></li><br>
 					<span class="cd-date">December 2015</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -129,7 +137,7 @@
 					<p>Designed and developed Dalhousie's Women in Technology Society's contact page using Bootstrap 3</p>
 					<p>Designed and prototyped Computer Science Society's homepage using Semantic UI</p> 
 					<p>Prototyped Computer Science Soceity's help page using HTML5 UP!</p>
-					<li class = "fa fa-link" style="font-size:16px;"><a href="http://web.cs.dal.ca/~tlin/cs_support">  CS soceity's help page</a></li>
+					<li class = "fa fa-link" style="font-size:16px;"><a href="http://web.cs.dal.ca/~tlin/cs_support">  CS soceity's help page</a></li><br>
 					<span class="cd-date">Aug 2014 - December 2015</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -156,7 +164,7 @@
 					<p>Prototyped the online incident report system to improve efficiency</p>				
 					<li class = "fa fa-github" style="font-size:16px;"><a href="https://github.com/TerryKLin/Ski-Patrol"> Ski Patrol's repository</a></li>
 					<p>UI/UX redesign of Dalhousie's admission page in Human Computer Interaction's class</p>				
-					<li class = "fa fa-link" style="font-size:16px;"><a href="http://web.cs.dal.ca/~tlin/CSCI4163/Assignment2.pdf"> Proposed redesign and reasons</a></li>
+					<li class = "fa fa-link" style="font-size:16px;"><a href="http://web.cs.dal.ca/~tlin/CSCI4163/Assignment2.pdf"> Proposed redesign and reasons</a></li><br>
 					<span class="cd-date">Jan - Apr 2015</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -208,11 +216,10 @@
 
 			<div id = "design"> 
 				<h3>Design Methodology</h3>
-				<p>In order to cope with the rising nubmer of small devices, this site followed the mobile first approach.
-				<br>
+				<p>In order to cope with the rising nubmer of small devices, this site followed the mobile first approach.</p>
 				This site is build using <a href="http://www.jeet.gs"> jeet</a>, a Stylus framework to customize the layout more intutively, and <a href="https://github.com/jenius/rupture"> rupture</a>, a simpler media query to suit Mobile First approach</p>
+				<p>Oh, and a <a href="https://codyhouse.co/gem/vertical-timeline/">jQuery timeline</a>, too</p>
 			</div>
-		
 	</div>
 	</body>
 </html>
