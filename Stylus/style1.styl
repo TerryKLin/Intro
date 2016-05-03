@@ -7,29 +7,23 @@ body
     max-width 90em
     div p
     	margin 1em 1em 0em 1em
-
-header h3{
-	font-weight: bold
-	font-size 1.5rem
-	color #694F5D
-}
+	
 #info
 	background #E6EBE0
-	//shift(1/10)
-	//text-align center
-	//stack()
-	+above(65em)
-		//background #9BC1BC
-		//col(1/3,1/8)
-		/*max-width  100%
-		height  150px
-		border-radius 25px*/
+	
 #photo
 	text-align center
 	stack()
 	+above(65em)
 		col(2/5)
-		shift(2.4/10)
+		shift(1/10)
+		text-align center
+		h2
+			margin-top 1em	
+			text-align center
+			text-decoration underline
+			font-size 1.5em
+			font-weight bold
 	
 img
 	border-radius 50%
@@ -42,19 +36,25 @@ img
 	text-align center
 	stack()
 	+above(65em)
+		margin-top 1.5em
 		col(2/5)
 		shift(1/10)
 		text-align center
 	
 #wrap
-	background url('../img/background.svg') no-repeat 
-	background-size cover 
-	font-size 1.1rem
-    line-height 2.56rem
-    div p
-    	margin 1em 1em 0em 1em
-
-	
+	h2	
+		text-align center
+		text-decoration underline
+		font-weight bold
+		font-size 1.3em
+	+above(65em)
+		background url('../img/background.svg') no-repeat 
+		background-size cover 
+		font-size 1.1rem
+	    line-height 2.56rem
+	    div p
+	    	margin 1em 1em 0em 1em
+		
 #summary
 	center()
 	text-align center
@@ -67,7 +67,7 @@ img
 	+above(65em)
 		col(2/5)
 		shift(1/10)
-		background rgba(92, 164, 169, 0.5)
+		background rgba(92, 164, 169, 0.8)
 		border 2px dashed  #ffffff
 		
 #exp
@@ -77,7 +77,7 @@ img
 	+above(65em)
 		col(2/5)
 		shift(1/10)
-		background rgba(244, 241, 187, 0.5)
+		background rgba(244, 241, 187, 0.8)
 		
 #showcase
 	center()
@@ -92,7 +92,7 @@ img
 		margin-top 2em
 		col(2/5)
 		shift(1/10)
-		background rgba(244, 241, 187, 0.7)
+		background rgba(244, 241, 187, 0.8)
 			
 #portfolio
 	text-align center
@@ -102,17 +102,24 @@ img
 		margin-top 2em
 		col(2/5)
 		shift(1/10)
-		background rgba(92, 164, 169, 0.5)
+		background rgba(92, 164, 169, 0.8)
 		border 2px dashed  #ffffff
 
-
 #design
-	background #E6EBE0
-	height 16em
+	background #ED6A5A
+	height 17em
 	center()
 	text-align center
 	stack()
+	h2	
+		text-align center
+		text-decoration underline
+		font-weight bold
+		font-size 1.3em
+	a
+		text-decoration underline
 	+above(65em)
 		background #ED6A5A
 		height 12em
+		
 	

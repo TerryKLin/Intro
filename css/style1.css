@@ -6,11 +6,6 @@ body {
 body div p {
   margin: 1em 1em 0em 1em;
 }
-header h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #694f5d;
-}
 #info {
   background: #e6ebe0;
 }
@@ -39,7 +34,8 @@ header h3 {
     margin-left: 0%;
     margin-right: 3%;
     position: relative;
-    left: 24.72%;
+    left: 10.3%;
+    text-align: center;
   }
   #photo:before,
   #photo:after {
@@ -51,6 +47,13 @@ header h3 {
   }
   #photo:last-child {
     margin-right: 0%;
+  }
+  #photo h2 {
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bold;
   }
 }
 img {
@@ -80,6 +83,7 @@ img {
 }
 @media only screen and (min-width: 65em) {
   #links {
+    margin-top: 1.5em;
     *zoom: 1;
     float: left;
     clear: none;
@@ -103,15 +107,23 @@ img {
     margin-right: 0%;
   }
 }
-#wrap {
-  background: url("../img/background.svg") no-repeat;
-  background-size: cover;
+#wrap h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.3em;
 }
-#wrap font-size 1.1rem {
-  line-height: 2.56rem;
-}
-#wrap font-size 1.1rem div p {
-  margin: 1em 1em 0em 1em;
+@media only screen and (min-width: 65em) {
+  #wrap {
+    background: url("../img/background.svg") no-repeat;
+    background-size: cover;
+  }
+  #wrap font-size 1.1rem {
+    line-height: 2.56rem;
+  }
+  #wrap font-size 1.1rem div p {
+    margin: 1em 1em 0em 1em;
+  }
 }
 #summary {
   *zoom: 1;
@@ -172,7 +184,7 @@ img {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: rgba(92,164,169,0.5);
+    background: rgba(92,164,169,0.8);
     border: 2px dashed #fff;
   }
   #intro:before,
@@ -214,7 +226,7 @@ img {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: rgba(244,241,187,0.5);
+    background: rgba(244,241,187,0.8);
   }
   #exp:before,
   #exp:after {
@@ -288,7 +300,7 @@ img {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: rgba(244,241,187,0.7);
+    background: rgba(244,241,187,0.8);
   }
   #skills:before,
   #skills:after {
@@ -330,7 +342,7 @@ img {
     margin-right: 3%;
     position: relative;
     left: 10.3%;
-    background: rgba(92,164,169,0.5);
+    background: rgba(92,164,169,0.8);
     border: 2px dashed #fff;
   }
   #portfolio:before,
@@ -346,8 +358,8 @@ img {
   }
 }
 #design {
-  background: #e6ebe0;
-  height: 16em;
+  background: #ed6a5a;
+  height: 17em;
   *zoom: 1;
   width: auto;
   max-width: 1440px;
@@ -378,6 +390,15 @@ img {
 }
 #design:last-child {
   margin-right: auto;
+}
+#design h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#design a {
+  text-decoration: underline;
 }
 @media only screen and (min-width: 65em) {
   #design {
